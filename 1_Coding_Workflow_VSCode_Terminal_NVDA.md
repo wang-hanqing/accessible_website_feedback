@@ -45,8 +45,6 @@ Tools: Windows / Terminal - GitBash/ VS Code / NVDA
 - `Ctrl+F` — search for a specific word, variable name, or character within the current file
 - `Ctrl+G` — jump to a specific line number; NVDA announces the new position
 
-**TO-DO**: turn on the autocomplete
-
 ## 7. Run the script
 
 - In the terminal: `python filename.py`
@@ -101,3 +99,38 @@ Tools: Windows / Terminal - GitBash/ VS Code / NVDA
 - `git add .`
 - `git commit -m "description of changes"`
 - `git push`
+
+
+## Turn on Python Autocomplete in VSCode
+
+**Required extensions** (both by Microsoft):
+- Python
+- Pylance
+
+To check if both are installed: `Ctrl+Shift+X` -> search each name -> confirm they appear in your installed list.
+If either is missing, install it and restart VSCode.
+
+**Enable autocomplet in Setting JSON:**
+`Ctrl+Shift+P` → Open User Settings JSON → add the following:
+```json
+"editor.quickSuggestions": {
+    "other": true,
+    "comments": false,
+    "strings": true
+},
+"editor.suggestOnTriggerCharacters": true,
+"editor.acceptSuggestionOnEnter": "on"
+```
+
+`Ctrl+S` to save.
+
+If autocomplete still does not appear:
+`Ctrl+Shift+P` → Python: Restart Language Server → Enter
+Wait a few seconds, then type pri in a .py file and press Ctrl+Space to manually trigger suggestions.
+
+**Using autocomplete:**
+
+- Suggestions appear automatically as you type
+- `Ctrl+Up` / `Ctrl+Down` — browse suggestions
+- `Enter` — accept the selected suggestion
+- `Shift+Escape` — dismiss the suggestion lis
