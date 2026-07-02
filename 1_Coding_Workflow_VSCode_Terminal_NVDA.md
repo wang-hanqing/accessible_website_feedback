@@ -130,7 +130,7 @@ Wait a few seconds, then type pri in a .py file and press Ctrl+Space to manually
 
 **Using autocomplete:**
 
-- 'Ctrl +Space' - to call the pop-up suggestion list
+- `Ctrl +Space` - to call the pop-up suggestion list
 - `Ctrl+Up` / `Ctrl+Down` — browse suggestions
 - `Tab` — accept the selected suggestion
 - `Shift+Escape` — dismiss the suggestion lis
