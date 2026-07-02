@@ -132,5 +132,5 @@ Wait a few seconds, then type pri in a .py file and press Ctrl+Space to manually
 
 - Suggestions appear automatically as you type
 - `Ctrl+Up` / `Ctrl+Down` — browse suggestions
-- `Enter` — accept the selected suggestion
+- `Tab` — accept the selected suggestion
 - `Shift+Escape` — dismiss the suggestion lis
