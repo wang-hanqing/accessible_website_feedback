@@ -6,7 +6,7 @@
 
 | # | Topic | Status |
 |---|---|---|
-| 1 | **Coding Workflow:VS Code + Terminal + NVDA**  | Work in Progress - Tested with Laras on Jun30; Iteration and next test on Jul2 |
+| 1 | **Coding Workflow:VS Code + Terminal + NVDA**  | Work in Progress - Tested on Jun30; Iteration and next test on Jul2 |
 | 2 | **Printing Table for Screen Reader Users** | ✅ Implemented|
 | 3 | **Code Block Labelling** | ✅ Implemented |
 | 4 | **Python Syntax Material** | ✅ Implemented |
